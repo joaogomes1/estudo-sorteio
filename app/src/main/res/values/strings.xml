@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sorteio</string>
+    <string name="titulo_home">SORTEIO</string>
+    <string name="button_sortear">SORTEAR</string>
+    <string name="resutado_sorteio">Resultado</string>
+</resources>
