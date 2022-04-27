@@ -16,18 +16,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void sortear (View view) {
-        //TextView text1 = findViewById(R.id.resultado_id);
-        TextView text1;
-        text1 = findViewById(R.id.resultado_id);
 
-        Random random = null;
+    public void sortear(View view) {
+        TextView resultTextView;
+        resultTextView = findViewById(R.id.result_id);
+
+        Random random;
         random = new Random();
 
-        int x;
-        x = random.nextInt(11);
+        int resultNumber;
+        resultNumber = random.nextInt(101);
 
-        text1.setText(String.valueOf(x));
+        String resultString;
+        resultString = String.valueOf(resultNumber);
+
+        resultTextView.setText(resultString);
     }
-
 }
